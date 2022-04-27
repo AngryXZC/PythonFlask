@@ -52,7 +52,6 @@ import CaffeineFree as myCoke
 
 
 from bs4 import BeautifulSoup
-
 soup=BeautifulSoup()
 
 print(type(soup))

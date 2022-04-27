@@ -1,3 +1,5 @@
+
+print(__name__)
 if  __name__=="__main__":
     '''整型测试'''
     a,b,c,d=50,5.5,True,5+3j
