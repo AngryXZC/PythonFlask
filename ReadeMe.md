@@ -5,6 +5,7 @@
 ## Python篇
 1. python 中加入 ___name__="main"到底有什么作用？
     + <font color=red>  在其他文件引入该文件时确定当前文件执行代码段与引入文件的代码段不冲突。</font>
+    + 已解决（就是确定入口文件的）
 ## Flask篇
 1. WIndows 设置环境变量使用set ops_config=local不好使，使用$env:ops_config="local"好使（使用CMD不好使，使用Shell好使）
 2.  有时间可以研究一下Flask底层的Werkzeug(Flask底层的框架)
