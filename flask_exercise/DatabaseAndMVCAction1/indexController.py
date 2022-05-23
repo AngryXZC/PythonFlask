@@ -49,7 +49,7 @@ def upload():
 '''
 #字符串
 @index_page.route("/text")
-def text():
+def text_a():
     return "text/html"
 
 
