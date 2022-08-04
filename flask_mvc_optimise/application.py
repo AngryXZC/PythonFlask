@@ -5,8 +5,6 @@ from flask_script import Manager
 import os
 app = Flask(__name__)
 
-manager = Manager(app)
-
 app.config.from_pyfile("config/base_setting.py")
 # ops_config=local|production
 # linux export ops_config=local|production
@@ -18,3 +16,6 @@ else:
     app.logger.error("环境变量未配置！")
 
 db = SQLAlchemy(app)
+
+
+manager = Manager(app)
