@@ -9,3 +9,10 @@ from config.base_setting import*
 # 本地数据库连接
 SQLALCHEMY_DATABASE_URI = "mysql://root:root@127.0.0.1/movie_cat"
 SECRET_KEY = "xzcLocal"
+
+
+
+DOMAIN={
+    "www":"http://localhost:5000"
+}
+# RELEASE_PATH="D:/Users/Administrator/Documents/FlaskMoive/flask_movie_v1/release_version.txt"
